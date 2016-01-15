@@ -1,11 +1,10 @@
-## This second programming assignment will require you to write an R function that is 
-## able to cache potentially time-consuming computations. If the contents of a vector 
-## are not changing, it makes sense to cache the value of the mean so that when we 
-## need it again, it can be looked up in the cache rather than recomputed.
+## Write an R function that is able to cache potentially time-consuming computations. 
+## If the contents of a vector are not changing, it makes sense to cache the value of
+## the mean so that when we need it again, it can be looked up in the cache rather 
+## than recomputed.
 
-## Matrix inversion is usually a costly computation and there may be some benefit to 
-## caching the inverse of a matrix rather than compute it repeatedly. Your assignment 
-## is to write a pair of functions that cache the inverse of a matrix.
+## There may be some benefit to caching the inverse of a matrix rather than compute it
+## repeatedly. Write a pair of functions that cache the inverse of a matrix.
 
 ## The makeCacheMatrix creates a list containing a function to:
         ## 1. set the value of the matrix
